@@ -9,19 +9,22 @@
 
     <body>
 
-        <header><h1> Welcome to Number Fun, userName </h1></header>
+        <header><h1 id = "greeting"> Welcome to Number Fun, </h1></header>
             
-            <section>
-                <p> Operand #1: operand1, Operand #2: operand2</p>
-            </section>
+        <section>
+            <p> Operand #1: <span id = "operand1"> </span>, Operand #2: <span id = "operand2"> </span></p>
+        </section>
 
-            <article>
-                <p>The sum of operand1 and operand2 is operand1 + operand2</p>
-                <p>The difference between operand1 and operand2 is operand1 - operand2</p>
-                <p>The product of operand1 and operand2 is operand1 * operand2</p>
-                <p>The quotient of operand1 and operand2 is operand1/operand2</p>
-                <p>The result of the mod operation between operand1 and operand2 is operand1 % operand2</p>
-            </article>
+        <article>
+            <p id = "addition"> </p>
+            <p id = "difference"> </p>
+            <p id = "product"> </p>
+            <p id = "quotient"> </p>
+            <p id = "modulus"> </p>
+
+        </article>
+
+        <script src = "lab.js"> </script>
 
     </body>
 </html>
